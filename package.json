@@ -1,6 +1,15 @@
 {
   "name": "tweed-babel-config",
-  "version": "0.0.2",
+  "version": "0.2.0",
+  "description": "Babel Configuration for Tweed",
+  "homepage": "https://github.com/tweedjs/tweed-babel-config",
+  "license": "WTFPL",
+  "keywords": ["ui", "vdom", "oop", "tweed", "babel"],
+  "bugs": {
+    "url" : "https://github.com/tweedjs/tweed/issues"
+  },
+  "repository": "tweedjs/tweed-babel-config",
+  "author": "Emil Persson <emil.n.persson@gmail.com> (https://emilpersson.se)",
   "dependencies": {
     "babel-plugin-transform-class-properties": "^6.19.0",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
