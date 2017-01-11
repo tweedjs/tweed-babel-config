@@ -1,13 +1,20 @@
 {
   "name": "tweed-babel-config",
-  "version": "0.2.0",
+  "version": "0.3.0-dev",
   "description": "Babel Configuration for Tweed",
   "homepage": "https://github.com/tweedjs/tweed-babel-config",
   "license": "WTFPL",
-  "keywords": ["ui", "vdom", "oop", "tweed", "babel"],
+  "keywords": [
+    "ui",
+    "vdom",
+    "oop",
+    "tweed",
+    "babel"
+  ],
   "bugs": {
-    "url" : "https://github.com/tweedjs/tweed/issues"
+    "url": "https://github.com/tweedjs/tweed/issues"
   },
+  "main": "./config.json",
   "repository": "tweedjs/tweed-babel-config",
   "author": "Emil Persson <emil.n.persson@gmail.com> (https://emilpersson.se)",
   "dependencies": {
@@ -15,8 +22,6 @@
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-plugin-transform-export-extensions": "^6.8.0",
     "babel-plugin-transform-react-jsx": "^6.8.0",
-    "babel-preset-es2015": "^6.18.0",
-    "babel-preset-es2016": "^6.16.0",
-    "babel-preset-es2017": "^6.16.0"
+    "babel-preset-latest": "^6.16.0"
   }
 }
