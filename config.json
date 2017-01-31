@@ -1,12 +1,12 @@
 {
   "presets": ["latest"],
   "plugins": [
+    "transform-runtime",
     ["transform-react-jsx", {
       "pragma": "Node"
     }],
     "transform-decorators-legacy",
     "transform-class-properties",
-    "transform-export-extensions",
-    "transform-runtime"
+    "transform-export-extensions"
   ]
 }
