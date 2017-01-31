@@ -1,6 +1,6 @@
 {
   "name": "tweed-babel-config",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Babel Configuration for Tweed",
   "homepage": "https://github.com/tweedjs/tweed-babel-config",
   "license": "WTFPL",
