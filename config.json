@@ -1,6 +1,5 @@
 {
   "presets": [["env", {
-    "modules": false,
     "useBuiltIns": true
   }]],
   "plugins": [
