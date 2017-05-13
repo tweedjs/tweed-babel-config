@@ -1,9 +1,9 @@
 {
-  "presets": ["latest"],
+  "presets": ["env"],
   "plugins": [
     "transform-runtime",
     ["transform-react-jsx", {
-      "pragma": "Node"
+      "pragma": "VirtualNode"
     }],
     "transform-decorators-legacy",
     "transform-class-properties",
