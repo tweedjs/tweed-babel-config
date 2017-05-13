@@ -26,7 +26,6 @@
     "babel-preset-env": "^6.16.0"
   },
   "peerDependencies": {
-    "babel-runtime": "*",
     "babel-polyfill": "*"
   }
 }

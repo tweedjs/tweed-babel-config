@@ -1,5 +1,8 @@
 {
-  "presets": ["env"],
+  "presets": [["env", {
+    "modules": false,
+    "useBuiltIns": true
+  }]],
   "plugins": [
     "transform-runtime",
     ["transform-react-jsx", {
